@@ -1,0 +1,58 @@
+.App {
+  width: max-content;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.time-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.time-progressbar-volume-container {
+  display: flex;
+}
+
+.time-progressbar-container {
+  width: 66%;
+  padding-bottom: 1em;
+}
+
+.progressbar {
+  width: 90%;
+}
+
+.volume-container {
+  align-self: flex-end;
+  padding-left: .3em;
+  padding-bottom: 1em ;
+}
+
+.controls-container {
+  width: 66%;
+}
+
+.time-container h5 {
+  padding-right: 1.2em;
+  padding-left: 1.2em;
+  color: #516477;
+}
+.title, .author {
+  color: #0F2942;
+}
+
+.chapters-container h6 {
+  color: #0F2942;
+}
+
+.play, .pause, .next, .prev, .forward-30, .backward-30, .volume-button {
+  border: none;
+
+}
+
+.img {
+  object-fit: cover;
+  width: 300px;
+  height: 200px;
+}
